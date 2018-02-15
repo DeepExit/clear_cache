@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xterm -e rm ~/.mozilla/firefox/*.default/cookies.sqlite
+xterm -e rm ~/.mozilla/firefox/*.default/*.sqlite ~/.mozilla/firefox/*default/sessionstore.js
+xterm -e rm -r ~/.cache/mozilla/firefox/*.default/*
